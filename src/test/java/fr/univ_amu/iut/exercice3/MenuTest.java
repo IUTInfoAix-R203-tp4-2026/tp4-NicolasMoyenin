@@ -90,7 +90,7 @@ class MenuTest {
   // Tests de structure (à activer au fur et à mesure du refactoring)
   // =========================================================================
 
-  @Disabled("Activer après avoir créé la classe Historique")
+  // @Disabled("Activer après avoir créé la classe Historique")
   @Test
   void la_classe_historique_existe() throws Exception {
     Class<?> histo = Class.forName("fr.univ_amu.iut.exercice3.Historique");
